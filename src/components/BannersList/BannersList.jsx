@@ -1,6 +1,7 @@
+import styles from "./styles.module.css";
+
 import withSkeleton from "../../helpers/hocs/withSkeleton";
 import NewsBanner from "../NewsBanner/NewsBanner";
-import styles from "./styles.module.css";
 
 const BannersList = ({ banners }) => {
   return (
